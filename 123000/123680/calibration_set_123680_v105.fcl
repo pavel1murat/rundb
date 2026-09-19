@@ -20,10 +20,10 @@ services.DbService : {
                 # "daqana/calibrations/TrkPreampStraw_v0.txt",                ## based on pulse injections runs 122968-122976
                 # "daqana/calibrations/TrkDelayRStraw.txt"   ,
                 
-                "daqana/rundb/123000/123680/CaloRecoTable_20260731.txt",   ## calo energy, Paolo
-                "daqana/rundb/123000/123680/CaloTimeCalib_20260804.txt"    ## calo timing, Paolo - all zeroes
+                "rundb/123000/123680/CaloRecoTable_20260731.txt",   ## calo energy, Paolo
+                "rundb/123000/123680/CaloTimeCalib_20260804.txt"    ## calo timing, Paolo - all zeroes
 
-                , "daqana/rundb/123000/123680/CRVTime_123680_cid_305.txt"
+                , "rundb/123000/123680/CRVTime_123680_cid_305.txt"
                ]
 }
 #------------------------------------------------------------------------------

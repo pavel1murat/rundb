@@ -16,33 +16,33 @@ services.DbService : {
                 "Offline/TrackerConditions/data/TrkPanelMap.txt",           ## use "DB"
                 
                 # "PassN/Tracker/currentcalib.txt",                         ## tracker all, Richie
-                "daqana/calibrations/Richie/TrkAlignPanel.txt",             ## split by table name
-                "daqana/calibrations/Richie/TrkAlignPlane.txt",             ## split by table name
-                "daqana/calibrations/Richie/TrkAlignStraw.txt",             ## split by table name
-                "daqana/calibrations/Richie/TrkAlignTracker.txt",           ## split by table name
+                "rundb/Richie/TrkAlignPanel.txt",             ## split by table name
+                "rundb/Richie/TrkAlignPlane.txt",             ## split by table name
+                "rundb/Richie/TrkAlignStraw.txt",             ## split by table name
+                "rundb/Richie/TrkAlignTracker.txt",           ## split by table name
 
                 # "daqana/calibrations/Richie/TrkDelayPanel.txt",           ## split by table name
-                "daqana/rundb/124000/124155/TrkDelayPanel_124155_v1.txt",   ##
+                "rundb/124000/124155/TrkDelayPanel_124155_v1.txt",   ##
 
-                "daqana/calibrations/Richie/TrkDelayRStraw.txt",            ## split by table name
+                "rundb/Richie/TrkDelayRStraw.txt",            ## split by table name
 
-                "daqana/calibrations/Richie/TrkPanelStatus.txt",            ## split by table name
-                "daqana/calibrations/Richie/TrkPlaneStatus.txt",            ## split by table name
+                "rundb/Richie/TrkPanelStatus.txt",            ## split by table name
+                "rundb/Richie/TrkPlaneStatus.txt",            ## split by table name
 
-                "daqana/calibrations/Richie/TrkPreampStraw.txt",            ## split by table name
+                "rundb/Richie/TrkPreampStraw.txt",            ## split by table name
 
-                "daqana/calibrations/Richie/TrkStrawStatusLong.txt",        ## split by table name
-                "daqana/calibrations/Richie/TrkStrawStatusShort.txt",       ## split by table name
+                "rundb/Richie/TrkStrawStatusLong.txt",        ## split by table name
+                "rundb/Richie/TrkStrawStatusShort.txt",       ## split by table name
                 
                 
-                # "daqana/rundb/124000/124155/TrkDelayPanel_124680_v1.txt",   ## corrected based on run 123098
-                # "daqana/calibrations/TrkPreampStraw_v0.txt",                ## based on pulse injections runs 122968-122976
-                # "daqana/calibrations/TrkDelayRStraw.txt"   ,
+                # "rundb/124000/124155/TrkDelayPanel_124680_v1.txt",   ## corrected based on run 123098
+                # "rundb/TrkPreampStraw_v0.txt",                ## based on pulse injections runs 122968-122976
+                # "rundb/TrkDelayRStraw.txt"   ,
                  
-                "daqana/rundb/124000/124155/CaloRecoTable_20260731.txt",   ## calo energy, Paolo
-                "daqana/rundb/124000/124155/CaloTimeCalib_123680_cid_301.txt"    ## calo timing, Paolo - all zeroes
+                "rundb/124000/124155/CaloRecoTable_20260731.txt",   ## calo energy, Paolo
+                "rundb/124000/124155/CaloTimeCalib_123680_cid_301.txt"    ## calo timing, Paolo - all zeroes
 
-                , "daqana/rundb/124000/124155/CRVTime_cid_303.txt"         ## CRV timing updated
+                , "rundb/124000/124155/CRVTime_cid_303.txt"         ## CRV timing updated
                ]
 }
 #------------------------------------------------------------------------------
