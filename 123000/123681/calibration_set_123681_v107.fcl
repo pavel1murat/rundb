@@ -1,7 +1,7 @@
 # -*- mode:tcl -*-
 #------------------------------------------------------------------------------
 # added initial version of the calorimeter calibrations
-# v102: use CRVTime_123680_cid_302.txt
+# v102: use CRVTime_123681_cid_302.txt
 #------------------------------------------------------------------------------
 # services.DbService : @local::DbEmpty
 services.DbService : {
@@ -13,22 +13,21 @@ services.DbService : {
     
     textFile : [ 
                 "Offline/TrackerConditions/data/TrkPanelMap.txt",           ## use "DB"
-#                "rundb/TrkPanelMap/TrkPanelMap_cid_301.txt",                  ## use "DB"
                 
                 "PassN/Tracker/currentcalib.txt",                         ## tracker all, Richie
                 
-                # "rundb/123000/123680/TrkDelayPanel_123680_v1.txt",   ## corrected based on run 123098
+                # "rundb/123000/123681/TrkDelayPanel_123681_v1.txt",   ## corrected based on run 123098
                 # "daqana/calibrations/TrkPreampStraw_v0.txt",                ## based on pulse injections runs 122968-122976
                 # "daqana/calibrations/TrkDelayRStraw.txt"   ,
                 
-                "rundb/123000/123680/CaloRecoTable_20260731.txt",       ## calo energy, Paolo
-                # "rundb/123000/123680/CaloTimeCalib_20260804.txt"      ## calo timing from Sabrina, Paolo - all zeroes
+                "rundb/123000/123681/CaloRecoTable_20260731.txt",       ## calo energy, Paolo
+                # "rundb/123000/123681/CaloTimeCalib_20260804.txt"      ## calo timing from Sabrina, Paolo - all zeroes
                 
-                "rundb/123000/123680/CaloTimeCalib_123680_cid_301.txt"  ## calo timing, updated
+                "rundb/123000/123681/CaloTimeCalib_123681_cid_301.txt"  ## calo timing, updated
 
                 
-                , "rundb/123000/123680/CRVSiPM_cid_302.txt"      ## CRV timing
-                , "rundb/123000/123680/CRVTime_123680_cid_306.txt"      ## CRV timing
+                , "rundb/123000/123681/CRVSiPM_cid_302.txt"      ## CRV timing
+                , "rundb/123000/123681/CRVTime_123681_cid_306.txt"      ## CRV timing
                ]
 }
 #------------------------------------------------------------------------------
