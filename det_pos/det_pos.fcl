@@ -8,7 +8,7 @@ det_pos: [
       trk_off      : [     0.,    0.0,       0 ]
       crv_off      : [     0.,    0.0,     0.0 ]
       calo_pos     : [
-                       -3904.,     0.0, 25999.0,    ## extrap plane, disk starts ~5cm earlier
+                       -3904.,     0.0, 26010.0,    ## extrap plane, disk starts ~5cm earlier
                        -3904.,     0.0, 26708.0
                      ]
       calo_off     : [
@@ -20,7 +20,7 @@ det_pos: [
 # data 
 #------------------------------------------------------------------------------
   {
-      run_range    : [123660,123999]
+      run_range    : [123660,999999]
       trk_pos      : [ -3904.,    0.0, 24171.0 ]
       trk_off      : [     0.,    0.0, -1235.0 ]
       crv_off      : [     0., -145.0,     0.0 ]
