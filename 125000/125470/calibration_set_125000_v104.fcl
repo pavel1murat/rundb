@@ -22,7 +22,7 @@ services.DbService : {
                 "rundb/Richie/TrkAlignStraw.txt",             ## split by table name
                 "rundb/Richie/TrkAlignTracker.txt",           ## split by table name
 
-                "rundb/latest/TrkDelayPanel_125443_v8.txt",   ##
+                "rundb/125000/125470/TrkDelayPanel_125470_v0.txt",   ## derived from run=125470
 
                 "rundb/Richie/TrkDelayRStraw.txt",            ## split by table name
 
@@ -35,7 +35,7 @@ services.DbService : {
                 "rundb/Richie/TrkStrawStatusShort.txt",       ## split by table name
 
                 "rundb/CalEnergyCalib/CalEnergyCalib_cid_309.txt",   ## calo energy, Paolo
-                "rundb/CalTimeCalib/CalTimeCalib_cid_310.txt"        ## calo timing, Paolo - all zeroes
+                "rundb/CalTimeCalib/CalTimeCalib_cid_310.txt"        ## calo timing
 
                 , "rundb/CRVTime/CRVTime_cid_304.txt"         ## CRV timing updated
                 , "rundb/CRVSiPM/CRVSiPM_cid_305.txt"         ## CRV timing updated
