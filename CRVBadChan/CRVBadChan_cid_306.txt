@@ -1,0 +1,6 @@
+TABLE CRVBadChan
+#  cid 306
+# channel,status
+863,3
+2068,3
+2246,3
