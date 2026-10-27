@@ -1,4 +1,5 @@
 TABLE DAQTiming
 #  cid 319
 # crvTrackerTimeOffset,caloTrackerTimeOffset,timeFromProtonsToDRMarker
--520.0,-1502.0,0.0
+#-520.0,-1502.0,0.0
+-483.0,-1502.0,0.0

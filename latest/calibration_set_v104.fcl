@@ -37,7 +37,7 @@ services.DbService : {
                 , "rundb/CalEnergyCalib/CalEnergyCalib_cid_309.txt" ## calo energy 2026-10-17 Paolo
                 , "rundb/CalTimeCalib/CalTimeCalib_cid_310.txt"     ## calo timing 2026-10-17 Paolo
 
-                , "rundb/CRVTime/CRVTime_cid_304.txt"         ## CRV timing updated 2026-10-03
+                , "rundb/CRVTime/CRVTime_cid_304_01.txt"      ## CRV timing updated 2026-10-03
                 , "rundb/CRVSiPM/CRVSiPM_cid_305.txt"         ## CRV timing updated
                 , "rundb/CRVBadChan/CRVBadChan_cid_306.txt"   ## CRV timing updated
 
@@ -50,16 +50,18 @@ services.DbService : {
 services.ProditionsService.trackerPanelMap.useDb          : true
 services.ProditionsService.trackerPanelMap.verbose        : 10
 
+services.ProditionsService.eventTiming.useDb              : true
+services.ProditionsService.eventTiming.verbose            : 10
+
 services.ProditionsService.alignedTracker.useDb           : false ## true        ## false
 services.ProditionsService.alignedTracker.verbose         : 0   ## 1
+services.ProditionsService.alignedTrackerSim.useDb        : false
 
 services.ProditionsService.trackerStatus.Settings.useDb   : false ## true
 services.ProditionsService.trackerStatus.Settings.verbose : 0
 
 services.ProditionsService.strawElectronics.useDb         : true        ## default false
 services.ProditionsService.strawElectronics.verbose       : 10
-
-services.ProditionsService.alignedTrackerSim.useDb        : false
 
 services.ProditionsService.fullReadoutStraw.useDb         : false
 services.ProditionsService.strawDrift.useDb               : false
