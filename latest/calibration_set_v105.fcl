@@ -16,23 +16,23 @@ services.DbService : {
     textFile : [
                 "Offline/TrackerConditions/data/TrkPanelMap.txt",           ## use "DB"
 
-                # "PassN/Tracker/currentcalib.txt",           ## tracker all, Richie
-                "rundb/Richie/TrkAlignPanel.txt",             ## split by table name
-                "rundb/Richie/TrkAlignPlane.txt",             ## split by table name
-                "rundb/Richie/TrkAlignStraw.txt",             ## split by table name
-                "rundb/Richie/TrkAlignTracker.txt",           ## split by table name
+                # "PassN/Tracker/currentcalib.txt",                ## tracker all, Richie
+                "rundb/Richie/TrkAlignPanel.txt",                  ## split by table name
+                "rundb/Richie/TrkAlignPlane.txt",                  ## split by table name
+                "rundb/Richie/TrkAlignStraw.txt",                  ## split by table name
+                "rundb/Richie/TrkAlignTracker.txt",                ## split by table name
 
-                "rundb/latest/TrkDelayPanel_125470_v0.txt",   ## derived from run=125470
+                "rundb/TrkDelayPanel/TrkDelayPanel_125470_v0.txt", ## derived from run=125470
 
-                "rundb/Richie/TrkDelayRStraw.txt",            ## split by table name
+                "rundb/Richie/TrkDelayRStraw.txt",                 ## split by table name
 
-                "rundb/Richie/TrkPanelStatus.txt",            ## split by table name
-                "rundb/Richie/TrkPlaneStatus.txt",            ## split by table name
+                "rundb/Richie/TrkPanelStatus.txt",                 ## split by table name
+                "rundb/Richie/TrkPlaneStatus.txt",                 ## split by table name
 
-                "rundb/Richie/TrkPreampStraw.txt",            ## split by table name
+                "rundb/Richie/TrkPreampStraw.txt",                 ## split by table name
 
-                "rundb/Richie/TrkStrawStatusLong.txt",        ## split by table name
-                "rundb/Richie/TrkStrawStatusShort.txt"        ## split by table name
+                "rundb/Richie/TrkStrawStatusLong.txt",             ## split by table name
+                "rundb/Richie/TrkStrawStatusShort.txt"             ## split by table name
 
                 # , "rundb/CalEnergyCalib/CalEnergyCalib_cid_309.txt" ## calo energy 2026-10-17 Paolo
                 , "rundb/CalEnergyCalib/CalEnergyCalib_cid_321.txt" ## calo energy 2026-10-17 Paolo

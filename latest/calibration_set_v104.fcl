@@ -22,7 +22,7 @@ services.DbService : {
                 "rundb/Richie/TrkAlignStraw.txt",             ## split by table name
                 "rundb/Richie/TrkAlignTracker.txt",           ## split by table name
 
-                "rundb/latest/TrkDelayPanel_125470_v0.txt",   ## derived from run=125470
+                "rundb/TrkDelayPanel/TrkDelayPanel_125470_v0.txt",   ## derived from run=125470
 
                 "rundb/Richie/TrkDelayRStraw.txt",            ## split by table name
 
