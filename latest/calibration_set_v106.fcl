@@ -3,6 +3,7 @@
 # added initial version of the calorimeter calibrations
 # v102: add CRV timing calib from run 124111
 # v104: add CRV timing cid_304
+# v106: use TrkDelayPanel_cid_328
 #------------------------------------------------------------------------------
 # services.DbService : @local::DbEmpty
 services.DbService : {
@@ -22,7 +23,7 @@ services.DbService : {
                 "rundb/Richie/TrkAlignStraw.txt",                  ## split by table name
                 "rundb/Richie/TrkAlignTracker.txt",                ## split by table name
 
-                "rundb/TrkDelayPanel/TrkDelayPanel_125470_v0.txt", ## derived from run=125470
+                "rundb/TrkDelayPanel/TrkDelayPanel_cid_328.txt", ## derived from run=125470
 
                 "rundb/Richie/TrkDelayRStraw.txt",                 ## split by table name
 
@@ -34,9 +35,7 @@ services.DbService : {
                 "rundb/Richie/TrkStrawStatusLong.txt",             ## split by table name
                 "rundb/Richie/TrkStrawStatusShort.txt"             ## split by table name
 
-                # , "rundb/CalEnergyCalib/CalEnergyCalib_cid_309.txt" ## calo energy 2026-10-17 Paolo
                 , "rundb/CalEnergyCalib/CalEnergyCalib_cid_321.txt" ## calo energy 2026-10-17 Paolo
-                # , "rundb/CalTimeCalib/CalTimeCalib_cid_310.txt"     ## calo timing 2026-10-17 Paolo
                 , "rundb/CalTimeCalib/CalTimeCalib_cid_322.txt"     ## calo timing 2026-10-17 Paolo
 
                 , "rundb/CRVTime/CRVTime_cid_304_01.txt"      ## CRV timing updated 2026-10-03

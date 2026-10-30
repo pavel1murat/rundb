@@ -34,9 +34,7 @@ services.DbService : {
                 "rundb/Richie/TrkStrawStatusLong.txt",             ## split by table name
                 "rundb/Richie/TrkStrawStatusShort.txt"             ## split by table name
 
-                # , "rundb/CalEnergyCalib/CalEnergyCalib_cid_309.txt" ## calo energy 2026-10-17 Paolo
                 , "rundb/CalEnergyCalib/CalEnergyCalib_cid_321.txt" ## calo energy 2026-10-17 Paolo
-                # , "rundb/CalTimeCalib/CalTimeCalib_cid_310.txt"     ## calo timing 2026-10-17 Paolo
                 , "rundb/CalTimeCalib/CalTimeCalib_cid_322.txt"     ## calo timing 2026-10-17 Paolo
 
                 , "rundb/CRVTime/CRVTime_cid_304_01.txt"      ## CRV timing updated 2026-10-03
