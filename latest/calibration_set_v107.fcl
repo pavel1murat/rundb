@@ -1,0 +1,57 @@
+# -*- mode:tcl -*-
+#------------------------------------------------------------------------------
+# added initial version of the calorimeter calibrations
+# v102: add CRV timing calib from run 124111
+# v104: add CRV timing cid_304
+# v106: use TrkDelayPanel_cid_328
+#------------------------------------------------------------------------------
+# services.DbService : @local::DbEmpty
+services.DbService : {
+    dbName       : "mu2e_conditions_prd"       ## (could be mu2e_conditions_dev)
+    purpose      : KPP_reco                    ## EMPTY
+    version      : v1_2                        ## v1_0   ## v0                ## ignored
+    verbose      : 0                           ## 100
+    nearestMatch : false                       ## true
+
+
+    textFile : [
+                "rundb/CalTimeCalib/CalTimeCalib_cid_322.txt"       ## calo timing 2026-10-28 Paolo
+
+                , "rundb/CRVTime/CRVTime_cid_304_01.txt"            ## 2026-10-03 CRV timing updated to account fo sector-to-sector offsets
+                , "rundb/DAQTiming/DAQTiming_cid_330.txt"        ## cross-detector offsets
+               ]
+}
+#------------------------------------------------------------------------------
+# calibration constants : tracker
+#------------------------------------------------------------------------------
+services.ProditionsService.trackerPanelMap.useDb          : true
+services.ProditionsService.trackerPanelMap.verbose        : 10
+
+services.ProditionsService.eventTiming.useDb              : true
+services.ProditionsService.eventTiming.verbose            : 10
+
+services.ProditionsService.alignedTracker.useDb           : false  ## true        ## false
+services.ProditionsService.alignedTracker.verbose         : 0      ## 1
+services.ProditionsService.alignedTrackerSim.useDb        : false
+
+services.ProditionsService.trackerStatus.Settings.useDb   : false ## true
+services.ProditionsService.trackerStatus.Settings.verbose : 0
+
+services.ProditionsService.strawElectronics.useDb         : true        ## default false
+services.ProditionsService.strawElectronics.verbose       : 10
+
+services.ProditionsService.fullReadoutStraw.useDb         : false
+services.ProditionsService.strawDrift.useDb               : false
+services.ProditionsService.strawPhysics.useDb             : false
+services.ProditionsService.strawResponse.useDb            : false
+#------------------------------------------------------------------------------
+# calibration constants : calorimeter
+#------------------------------------------------------------------------------
+services.ProditionsService.calCalib.useDb                 : true
+#------------------------------------------------------------------------------
+# calibration constants : CRV
+#------------------------------------------------------------------------------
+services.ProditionsService.crvStatus.useDb                : true
+services.ProditionsService.crvCalib.useDb                 : true
+
+services.ProditionsService.crvPhotonYield.useDb           : false
