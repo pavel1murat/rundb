@@ -18,7 +18,7 @@ services.DbService : {
                 "rundb/CalTimeCalib/CalTimeCalib_cid_322.txt"       ## calo timing 2026-10-28 Paolo
 
                 , "rundb/CRVTime/CRVTime_cid_304_01.txt"            ## 2026-10-03 CRV timing updated to account fo sector-to-sector offsets
-                , "rundb/DAQTiming/DAQTiming_cid_330.txt"        ## cross-detector offsets
+                , "rundb/DAQTiming/DAQTiming_cid_330.txt"           ## cross-detector offsets
                ]
 }
 #------------------------------------------------------------------------------

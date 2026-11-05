@@ -1,0 +1,2 @@
+unknown or inappropriate argument cid=334
+try dbTool --help
