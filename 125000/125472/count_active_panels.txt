@@ -1,0 +1,20 @@
+root [5] count_active_panels("hist/hst.mu2e.kpp00s000r000n000.pdt_r104.125472_000001.root")
+Modal occupancy: 48356 hits; turned-off threshold: < 4835.6 hits
+Station 01 active panels: 08
+Station 02 active panels: 09
+Station 03 active panels: 07
+Station 04 active panels: 06
+Station 05 active panels: 06
+Station 06 active panels: 10
+Station 07 active panels: 08
+Station 08 active panels: 10
+Station 09 active panels: 10
+Station 10 active panels: 08
+Station 11 active panels: 09
+Station 12 active panels: 10
+Station 13 active panels: 11
+Station 14 active panels: 09
+Station 15 active panels: 10
+Station 16 active panels: 12
+Station 17 active panels: 10
+Station 18 active panels: 11

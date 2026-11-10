@@ -20,11 +20,44 @@ runinfo : [
                trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
            },
            {
+               run_range    : [ 125470, 125470 ]
+               run_number   : 125470
+               max_ewtag    : 80867940      # total number of events on input ???
+               duration     : "2:18:07"     #
+               run_type     : 2             # "noise"
+               event_mode   : 1             # ran in offspill mode
+               cfo_rate     : 10000.0       # CFO HB rate, Hz
+               trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
+               ew_length    : 100.0e-6      # event window, sec
+           },
+           {
+               run_range    : [ 125472, 125472 ]
+               run_number   : 125472
+               max_ewtag    : 233290484     # total number of events on input ???
+               duration     : "6:30:54"     #
+               run_type     : 2             # "cosmics"
+               event_mode   : 1             # ran in offspill mode
+               cfo_rate     : 10000.0       # CFO HB rate, Hz
+               trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
+               ew_length    : 100.0e-6      # event window, sec
+           },
+           {
+               run_range    : [ 125483, 125483 ]
+               run_number   : 125483
+               max_ewtag    : 19913094      # total number of events on input ???
+               duration     : "0:42:29"     #
+               run_type     : 2             # "cosmics"
+               event_mode   : 1             # ran in offspill mode
+               cfo_rate     : 10000.0       # CFO HB rate, Hz
+               trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
+               ew_length    : 100.0e-6      # event window, sec
+           },
+           {
                run_range    : [ 125677, 125677 ]
                run_number   : 125677
                max_ewtag    : 21047820      # total number of events on input ???
                duration     : "0:37:39"     #
-               run_type     : 1             # "noise"
+               run_type     : 5             # "noise"
                event_mode   : 1             # ran in offspill mode
                cfo_rate     : 1000.0        # CFO HB rate, Hz
                trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
@@ -39,6 +72,17 @@ runinfo : [
                event_mode   : 1             # ran in offspill mode
                cfo_rate     : 1000.0        # CFO HB rate, Hz
                trigger_rate : 100.0         # rate to disk, Hz, approx (from the DL log)
+               ew_length    : 100.0e-6      # event window, sec
+           },
+           {
+               run_range    : [ 125692, 125692 ]
+               run_number   : 125692
+               max_ewtag    : 857099999     # total number of events on input ???
+               duration     : "24:34:30"    # 
+               run_type     : 2             # "cosmics"
+               event_mode   : 1             # ran in offspill mode
+               cfo_rate     : 1000.0        # CFO HB rate, Hz
+               trigger_rate : 130.0         # rate to disk, Hz, approx (from the DL log)
                ew_length    : 100.0e-6      # event window, sec
            }
           ]
