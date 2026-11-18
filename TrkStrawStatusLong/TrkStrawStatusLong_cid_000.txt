@@ -1,0 +1,6 @@
+TABLE TrkStrawStatusLong
+#  cid 000 : all in
+# strawid,strawstatus
+# 0_0_6, Absent:NoWire:NoHVPreamp:NoCalPreamp
+# 0_0_81, Absent:NoWire:NoHVPreamp:NoCalPreamp
+# 0_0_94, NoHVPreamp:NoCalPreamp

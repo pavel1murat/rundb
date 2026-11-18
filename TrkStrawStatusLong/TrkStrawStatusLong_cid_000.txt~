@@ -1,0 +1,4 @@
+TABLE TrkPanelStatus
+#  cid 000 : use all 
+# strawid,strawstatus
+# 0_2, NoHV

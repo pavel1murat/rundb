@@ -20,10 +20,10 @@ services.DbService : {
 # calibration constants : tracker
 #------------------------------------------------------------------------------
 services.ProditionsService.trackerPanelMap.useDb          : true
-services.ProditionsService.trackerPanelMap.verbose        : 10
+services.ProditionsService.trackerPanelMap.verbose        : 0 ## 10
 
 services.ProditionsService.eventTiming.useDb              : true
-services.ProditionsService.eventTiming.verbose            : 10
+services.ProditionsService.eventTiming.verbose            : 0 ## 10
 
 services.ProditionsService.alignedTracker.useDb           : false  ## true        ## false
 services.ProditionsService.alignedTracker.verbose         : 0      ## 1
@@ -33,7 +33,7 @@ services.ProditionsService.trackerStatus.Settings.useDb   : true   ## false/ tru
 services.ProditionsService.trackerStatus.Settings.verbose : 0
 
 services.ProditionsService.strawElectronics.useDb         : true        ## default false
-services.ProditionsService.strawElectronics.verbose       : 10
+services.ProditionsService.strawElectronics.verbose       : 0 ## 10
 
 services.ProditionsService.fullReadoutStraw.useDb         : false
 services.ProditionsService.strawDrift.useDb               : false
